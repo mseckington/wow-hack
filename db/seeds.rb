@@ -6,17 +6,18 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+Card.delete_all
 Card.create(
-  type: 'info',
-  description: 'Why is feminism still relevant?'
+  :card_type => 'info',
+  :description => 'Why is feminism still relevant?'
 )
 
 Card.create(
-  type: 'info',
-  description: "Gender equality still hasn't been solved."
+  :card_type => 'info',
+  :description => 'Gender equality is still an issue.'
 )
 
 Card.create(
-  type: 'info',
-  description: "Definition feminism"
+  :card_type => 'info',
+  :description => 'Definition of feminism'
 )
