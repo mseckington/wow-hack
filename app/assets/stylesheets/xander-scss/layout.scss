@@ -1,14 +1,40 @@
 .card{
-    background-color:#009faf;
-    height:260;
-    width:260;
-    padding:16px;
-    &.question{
-        padding-top:30px;
+    vertical-align:top;
+    background-color:#808080;
+    &:hover{
+        background-color:#009faf;
     }
-    &.info figure{
+
+    &:before{
+        content:"F";
+        font-size:800%;
+        position:absolute;
         width:100%;
-        img.header{
+        height:100%;
+        left:30%;
+        top:45%;
+    }
+    &.active,
+    &.complete{
+        &:before{
+            content:none;
+        }
+    }
+    height:260px;
+    width:260px;
+    padding:16px;
+    .social_media{
+        position:absolute;
+        left:0;
+        width:0;
+    }
+    &:hover .social_media{
+        width:20%;
+    }
+    &.question{
+    }
+    &.info {
+        img{
             width:100%;
             height:79px;
         }
