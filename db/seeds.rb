@@ -5,3 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Card.create(
+  type: 'info',
+  description: 'Why is feminism still relevant?'
+)
+
+Card.create(
+  type: 'info',
+  description: "Gender equality still hasn't been solved."
+)
+
+Card.create(
+  type: 'info',
+  description: "Definition feminism"
+)
