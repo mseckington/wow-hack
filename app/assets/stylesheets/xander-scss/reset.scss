@@ -1,0 +1,40 @@
+/*Walpole css reset, a composite of the meyerweb 2.0 and the html5 doctor, with some modifications made for the kind of development i do*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    position:relative;
+    display: inline-block;//i prefer inline-block to block as the default. Personal thing.
+}
+body {
+    line-height: 120%;//wider line height for more readable text
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+//don't use tables
+body,html{
+    width:100%;//keeps content from colapsing to one side of the screen
+    min-height:100%;//super easy fixed footers
+}
