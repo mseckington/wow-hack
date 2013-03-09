@@ -48,8 +48,8 @@ Card.create(
 
 Card.create(
   :card_type => 'info',
-  :description => "Women invented beer! In medieval times, brides made/sold beer on their big days. ‘Bridal’ comes from ‘Bride Ale.’",
-  :tweet_text => "Women invented beer! In medieval times, brides made/sold beer on their big days. ‘Bridal’ comes from ‘Bride Ale.’"
+  :description => "Women invented beer! In medieval times, brides made/sold beer on their big days. 'Bridal' comes from 'Bride Ale'.",
+  :tweet_text => "Women invented beer! In medieval times, brides made/sold beer on their big days. 'Bridal' comes from 'Bride Ale'."
 )
 
 Card.create(
@@ -60,8 +60,8 @@ Card.create(
 
 Card.create(
   :card_type => 'info',
-  :description => "In the UK’s Top 250 companies, only 7.8% of board members are women.",
-  :tweet_text => "In the UK’s Top 250 companies, only 7.8% of board members are women."
+  :description => "In the UK's Top 250 companies, only 7.8% of board members are women.",
+  :tweet_text => "In the UK's Top 250 companies, only 7.8% of board members are women."
 )
 
 Card.create(
@@ -72,13 +72,13 @@ Card.create(
     "Just as likely." => false,
     "Twice as likely." => true
   },
-  :tweet_text => "While female suicide attempts are unfortunately twice as likely as men, ¾ of successful suicides are men."
+  :tweet_text => "While female suicide attempts are unfortunately twice as likely as men, 3/4 of successful suicides are men."
 )
 
 Card.create(
   :card_type => 'info',
-  :description => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match ‘of the sexes’. 5m watched. She won.",
-  :tweet_text => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match ‘of the sexes’. 5m watched. She won."
+  :description => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match 'of the sexes'. 5m watched. She won.",
+  :tweet_text => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match 'of the sexes'. 5m watched. She won."
 )
 
 Card.create(
