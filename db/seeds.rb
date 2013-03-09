@@ -54,7 +54,7 @@ Card.create(
 
 Card.create(
   :card_type => 'video',
-  :video => "https://www.youtube.com/watch?v=39sJy7dJFK0",
+  :video => "39sJy7dJFK0",
   :tweet_text => ""
 )
 
