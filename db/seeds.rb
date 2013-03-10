@@ -32,7 +32,8 @@ Card.create(
 Card.create(
   :card_type => 'info',
   :description => "The bonfire of bras was actually a media invention; no lingerie was ever singed in the name of feminism.",
-  :tweet_text => "The bonfire of bras was actually a media invention; no lingerie was ever singed in the name of feminism."
+  :tweet_text => "The bonfire of bras was actually a media invention; no lingerie was ever singed in the name of feminism.",
+  :image => "SVGBraBurning.svg"
 )
 
 Card.create(
@@ -49,7 +50,8 @@ Card.create(
 Card.create(
   :card_type => 'info',
   :description => "Women invented beer! In medieval times, brides made/sold beer on their big days. 'Bridal' comes from 'Bride Ale'.",
-  :tweet_text => "Women invented beer! In medieval times, brides made/sold beer on their big days. 'Bridal' comes from 'Bride Ale'."
+  :tweet_text => "Women invented beer! In medieval times, brides made/sold beer on their big days. 'Bridal' comes from 'Bride Ale'.",
+  :image => "SVGBridal.svg"
 )
 
 Card.create(
@@ -61,7 +63,8 @@ Card.create(
 Card.create(
   :card_type => 'info',
   :description => "In the UK's Top 250 companies, only 7.8% of board members are women.",
-  :tweet_text => "In the UK's Top 250 companies, only 7.8% of board members are women."
+  :tweet_text => "In the UK's Top 250 companies, only 7.8% of board members are women.",
+  :image => "SVGWomenOnBoards.svg"
 )
 
 Card.create(
@@ -78,7 +81,8 @@ Card.create(
 Card.create(
   :card_type => 'info',
   :description => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match 'of the sexes'. 5m watched. She won.",
-  :tweet_text => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match 'of the sexes'. 5m watched. She won."
+  :tweet_text => "In 1973, Billy Riggs challenged Billy Jean King to a tennis match 'of the sexes'. 5m watched. She won.",
+  :image => "SVGTennis.svg"
 )
 
 Card.create(
@@ -95,5 +99,6 @@ Card.create(
 Card.create(
   :card_type => 'info',
   :description => "In 1990, NASA ordered new space-suits in medium and large. No suits for females (or small men).",
-  :tweet_text => "In 1990, NASA ordered new space-suits in medium and large. No suits for females (or small men)."
+  :tweet_text => "In 1990, NASA ordered new space-suits in medium and large. No suits for females (or small men).",
+  :image => "SVGAstronaut.svg"
 )

@@ -1,11 +1,11 @@
 #WOWhack project
 ##todo
-- [ ] images for the back  of tiles,
+- [x] images for the back  of tiles,
 - [ ] Banner
 - [ ] callbacks for answers
-- [ ] neaten css (some horrific selectors in there.
+- [ ] neaten css (some horrific selectors in there.)
 - [ ] add class to first article in ruby.
-- [ ] images in place.
+- [x] images in place.
 - [ ] tweet text in seeds
 
 more stuff. 
