@@ -7,7 +7,7 @@
  - [x] images in place.
  - [ ] tweet text in seeds
  - [ ] social sharing in index.erb
- - [ ] different bg images
+ - [x] different bg images
 
 more stuff. 
 
