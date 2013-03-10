@@ -87,7 +87,7 @@ Card.create(
 
 Card.create(
   :card_type => 'qa',
-  :description => "How many more hours a week than men do working women spend on household chores?",
+  :description => "How much more do women spend on housework than men?",
   :answers => {
     "2" => false,
     "6" => false,
@@ -102,3 +102,4 @@ Card.create(
   :tweet_text => "In 1990, NASA ordered new space-suits in medium and large. No suits for females (or small men).",
   :image => "SVGAstronaut.svg"
 )
+

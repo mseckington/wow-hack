@@ -13,8 +13,8 @@
 body{
     font-family:sans;
     color:white;
-    font-size:18px;
-    line-height:22pt;
+    font-size:16px;
+    line-height:20pt;
     font-weight:bold;
 }
 hgroup{
@@ -33,10 +33,10 @@ hgroup{
 }
 .description{
         @include scale-a;
-        font-weight:bold;
+        font-weight:normal;
 }
-h1.question{
-        @include scale-b;
+h1.question_text{
+        @include scale-c;
 }
 .explanation{
     font-size:14pt;
