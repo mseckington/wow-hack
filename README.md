@@ -13,6 +13,8 @@
  - [x] Add logo to back of cards
  - [x] Replace back of cards with yet another background SVG this time
  - [ ] video
+ - [ ] add footer button (doesn't need to link)
+
 
 more stuff. 
 
