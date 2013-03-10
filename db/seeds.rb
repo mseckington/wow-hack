@@ -89,9 +89,9 @@ Card.create(
   :card_type => 'qa',
   :description => "How much more do women spend on housework than men?",
   :answers => {
-    "2" => false,
-    "6" => false,
-    "17" => true
+    "2 hours a week" => false,
+    "6 hours a week" => false,
+    "17 hours a week" => true
   },
   :tweet_text => "Despite improving equality at work, women still do a disproportionate amount of the housework."
 )
