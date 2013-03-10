@@ -1,7 +1,21 @@
 .wrapper{
+    padding-bottom:6em;
         max-width:1134px;
         display:block;
         margin:0 auto;
+        }
+        .colophon{
+            width:240px;
+            font-size:200%;
+            font-weight:normal;
+            diaplay:block;
+            background-color:#009faf;
+            padding:010px;
+            float:right;
+            a{
+                color:white;
+                text-decoration:none;
+            }
         }
 .card{
     overflow:hidden;
