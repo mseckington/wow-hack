@@ -15,7 +15,7 @@ Card.create(
     "Women and men should have equal rights" => true,
     "Equal rights for lesbians" => false
   },
-  :tweet_text => ""
+  :tweet_text => "Feminism means working towards equality by fighting for women’s rights"
 )
 
 Card.create(
@@ -26,7 +26,7 @@ Card.create(
     "Women only" => false,
     "Hippies" => false
   },
-  :tweet_text => ""
+  :tweet_text => "Everyone who believes in gender equality can call themselves a feminist, whether they are male or female"
 )
 
 Card.create(
@@ -55,16 +55,16 @@ Card.create(
 )
 
 Card.create(
-  :card_type => 'video',
-  :video => "39sJy7dJFK0",
-  :tweet_text => ""
-)
-
-Card.create(
   :card_type => 'info',
   :description => "In the UK's Top 250 companies, only 7.8% of board members are women.",
   :tweet_text => "In the UK's Top 250 companies, only 7.8% of board members are women.",
   :image => "SVGWomenOnBoards.svg"
+)
+
+Card.create(
+  :card_type => 'video',
+  :video => "39sJy7dJFK0",
+  :tweet_text => "Great video demonstrating the glass ceiling for women in senior management #GenderEquality"
 )
 
 Card.create(
