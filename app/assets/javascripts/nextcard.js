@@ -37,7 +37,7 @@ function clickAnswer(e){
     
 };
 window.onload = function WindowLoad(event) {
-        $($('.card')[0]).addClass('active').next().click(function() {nextCard()})
+        $($('.card')[1]).click(function() {nextCard()})
         $('.answer').each(function(b,a){
                 $(a).click(function(e){clickAnswer(e)})
         })
