@@ -15,7 +15,7 @@ Card.create(
     "Women and men should have equal rights" => true,
     "Equal rights for lesbians" => false
   },
-  :tweet_text => "Feminism means working towards equality by fighting for women’s rights"
+  :tweet_text => "Feminism means working towards equality by fighting for womeni's rights"
 )
 
 Card.create(
@@ -26,7 +26,7 @@ Card.create(
     "Women only" => false,
     "Hippies" => false
   },
-  :tweet_text => "Everyone who believes in gender equality can call themselves a feminist, whether they are male or female"
+  :tweet_text => "Everyone who believes in gender equality can call themselves a feminist, whatever gender they are",
 )
 
 Card.create(

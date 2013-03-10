@@ -17,7 +17,8 @@
             display:none;
     }
     &:before{
-        content:"F";
+        background-image:url('/assets/SVGBackofCards.svg');
+        display:block;
         font-size:800%;
         position:absolute;
         width:100%;
