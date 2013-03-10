@@ -95,6 +95,9 @@
                                  right:0;
                              }
                              display:list-item;
+														.answer:hover {
+															color: #edc951;
+														}
                      }
                  }
                 .answered{
@@ -128,6 +131,11 @@
                     height:79px;
                 }
             }
+						&.final {
+								img{
+									width: 100%;
+								}
+						}
             &.video{
                 .player{
                     display:none;
