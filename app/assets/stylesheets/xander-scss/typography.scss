@@ -1,18 +1,42 @@
+@mixin scale-a{
+    font-size:100%;
+    line-height:130%;
+}
+@mixin scale-b{
+    font-size:120%;
+    line-height:120%;
+}
+@mixin scale-c{
+    font-size:144%;
+    line-height:110%;
+}
 body{
     font-family:sans;
     color:white;
-    font-size:18pt;
+    font-size:18px;
     line-height:22pt;
     font-weight:bold;
 }
-.answer{
-    font-size:20pt;
-    line-height:24pt;
+hgroup{
+        color:black;
+        h1{
+                @include scale-c
+        }
 }
-.card h1{
-    font-size:30pt;
-    line-height:30pt;
-    text-style:14pt;
+.answer{
+    color:white;
+    text-decoration:none;
+    @include scale-a;
+    line-height:130%;
+    padding-bottom:1em;
+    font-weight:normal;
+}
+.description{
+        @include scale-a;
+        font-weight:bold;
+}
+h1.question{
+        @include scale-b;
 }
 .explanation{
     font-size:14pt;
