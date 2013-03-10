@@ -22,7 +22,7 @@ Card.create(
   :card_type => 'qa',
   :description => "Who can be a feminist?",
   :answers => {
-    "Men & women" => true,
+    "Anywone who wants to" => true,
     "Women only" => false,
     "Hippies" => false
   },
