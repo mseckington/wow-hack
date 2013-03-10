@@ -2,6 +2,8 @@ WowHack::Application.routes.draw do
   
   root :to => 'cards#index'
   
+  match 'result' => 'cards#result'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
