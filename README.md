@@ -2,11 +2,11 @@
 ##todo
  - [x] images for the back  of tiles,
  - [ ] Banner
- - [ ] callbacks for answers
+ - [x] callbacks for answers
  - [ ] add class to first article in ruby.
  - [x] images in place.
  - [ ] tweet text in seeds
- - [ ] social sharing in index.erb
+ - [x] social sharing in index.erb
  - [x] different bg images
 
 more stuff. 
