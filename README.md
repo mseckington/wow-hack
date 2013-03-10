@@ -8,10 +8,11 @@
  - [x] tweet text in seeds
  - [x] social sharing in index.erb
  - [x] different bg images
- - [ ] Add final card which links to results
- - [ ] Add results page with SVG graphic
- - [ ] Add logo to back of cards
- - [ ] Replace back of cards with yet another background SVG this time
+ - [x] Add final card which links to results
+ - [x] Add results page with SVG graphic
+ - [x] Add logo to back of cards
+ - [x] Replace back of cards with yet another background SVG this time
+ - [ ] video
 
 more stuff. 
 
