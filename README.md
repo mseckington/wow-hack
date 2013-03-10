@@ -1,11 +1,11 @@
 #WOWhack project
 ##todo
  - [x] images for the back  of tiles,
- - [ ] Banner
+ - [x] Banner
  - [x] callbacks for answers
- - [ ] add class to first article in ruby.
+ - [x] add class to first article in ruby.
  - [x] images in place.
- - [ ] tweet text in seeds
+ - [x] tweet text in seeds
  - [x] social sharing in index.erb
  - [x] different bg images
  - [ ] Add final card which links to results

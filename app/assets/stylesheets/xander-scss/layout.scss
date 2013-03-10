@@ -1,5 +1,5 @@
 .wrapper{
-        max-width:1300px;
+        max-width:1134px;
         display:block;
         margin:0 auto;
         }
@@ -162,6 +162,39 @@
     }
 }
 .banner{
+    margin:1em;
+    height:140px;
+    display:block;
+    .logo,
+    .strapline{
+        float:left;
+    }
+    overflow:hidden;
+    .wowlogo{
+        float:right;
+    }
+    .strapline{
+        display:inline-block;
+        padding:1em;
+        font-weight:normal;
+        width:40%;
+        height:100%;
+        margin-left:1em;
+        font-size:130%;
+        font-style:italic;
+        line-height:130%;
+        color:white;
+        background-color:#009faf;
+    }
+    .wowlogo,
+    .logo{
+        height:100%;
+        width:auto;
+        display:inline-block;
+    }
+    .hidden{
+        display:none;
+    }
     
 }
 
