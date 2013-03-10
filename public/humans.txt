@@ -1,31 +1,26 @@
 /* TEAM */
 	                            
-Your title: WhyWOW
-	                            
-Site: email, link to a contact form, etc.
-Twitter: @drcabl3, @mseckington, @clementgraphics
-	                            
+Your title: Ux designer
+Site: clementgraphics.com
+Twitter:  @clementgraphics
 Location: London, UK.
-                         
-                 
-                        [...]
-						
-							
-/* THANKS */
-							
-Name: name or url
-						
-                 
-                        [...]
-                        
-                            
-/* SITE */
-                            
-Last update: YYYY/MM/DD 
-                            
-Standards: HTML5, CSS3,..
-                            
-Components: Modernizr, jQuery, etc.
-                            
-Software: Software used for the development
 
+Your title: Rails developer
+Site: missgeeky.com
+Twitter: @mseckington
+Location: London, UK.
+
+Your title: Frontend developer
+Site: tarbwf.com
+Twitter:  @drcable
+Location: Everywere
+
+Your title: Developer
+Site: issyl0.co.uk
+Twitter: @issyl0
+Location: London
+
+Your title: Researcher
+Site: 
+Twitter:  
+Location: London
