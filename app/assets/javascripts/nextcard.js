@@ -1,3 +1,4 @@
+var CardCallbackUrl = ""
 function nextCard(){
         $($('.active')[0]).removeClass('active').addClass('complete').next().addClass('active').unbind('click').next().click(function() {nextCard()});
         $.post(CardCallbackUrl,{
@@ -43,5 +44,4 @@ window.onload = function WindowLoad(event) {
         $('.play').each(function(b,a){
                 $(a).click(function(e){playVid(e)})
         })
-        var CardCallbackUrl = ""
 };
