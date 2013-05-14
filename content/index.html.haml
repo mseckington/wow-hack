@@ -1,0 +1,12 @@
+- first = true
+- for article in sorted_articles
+    - if article[:cardtype] == 'video'
+        = render "video", :card=> article 
+    - elsif article[:cardtype] == 'info'
+        = render "info", :card => article 
+    - elsif article[:cardtype] == 'question'
+        - if first == true
+            = render "question", :card => article ,:first => first
+            - first = false
+        - else
+            = render "question", :card => article ,:first => first

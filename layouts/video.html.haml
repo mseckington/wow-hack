@@ -1,0 +1,6 @@
+%article.card.video
+    = render "socMedia", :card => @card
+    %a.play{:href => "#" }
+        %span.inner
+            &#9654;
+    %iframe.player{:src => 'http://www.youtube.com/v/' + @card.raw_content + '?version=3&enablejsapi=1'}
