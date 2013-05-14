@@ -1,0 +1,6 @@
+%article.card.info
+    = render "socMedia", :card => @card
+    %img{:src => '/assets/' + @card[:image] }
+    %br
+    .description
+        = @card.raw_content

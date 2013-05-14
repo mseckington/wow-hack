@@ -16,18 +16,31 @@
 compile '/stylesheet/' do
   # don’t filter or layout
 end
+compile 'app' do
+  # don’t filter or layout
+end
+compile 'humans' do
+  # don’t filter or layout
+end
 
 compile '*' do
   if item.binary?
     # don’t filter binary items
   else
-    filter :erb
+    filter :haml
     layout 'default'
   end
 end
 
+route '/app/' do
+  '/app.js'
+end
+route '/humans/' do
+  '/humans.txt'
+end
+
 route '/stylesheet/' do
-  '/style.css'
+  '/stylesheet.css'
 end
 
 route '*' do
@@ -40,4 +53,4 @@ route '*' do
   end
 end
 
-layout '*', :erb
+layout '*', :haml

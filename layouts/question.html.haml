@@ -1,0 +1,32 @@
+- if @first
+    %article.card.question.active
+        = render "socMedia", :card => @card
+        %h1.question_text
+            = @card.raw_content
+        %ol.answers
+            - @card[:answers].each do |k|
+                %li.answer_wrap
+                    %a.answer{ :href => "#", :data => {'correct' => k[:correct]} } 
+                        = k[:answer]
+        .answered
+            %span.correctly
+                We wish it were otherwise, but you're right; 
+            %span.incorrectly
+                Sadly, you were a bit optimistic. In point of fact,
+                = @card[:tweet_text]
+- else
+    %article.card.question
+        = render "socMedia", :card => @card
+        %h1.question_text
+            = @card.raw_content
+        %ol.answers
+            - @card[:answers].each do |k|
+                %li.answer_wrap
+                    %a.answer{ :href => "#", :data => {'correct' => k[:correct]} } 
+                        = k[:answer]
+        .answered
+            %span.correctly
+                We wish it were otherwise, but you're right; 
+            %span.incorrectly
+                Sadly, you were a bit optimistic. In point of fact,
+                = @card[:tweet_text]
