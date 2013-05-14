@@ -1,5 +1,0 @@
-Design and UX by Jeanette Clement, @clementgraphics
-Frontend and static site backend by Thomas Walpole, @drcable
-Backend rails by Melinda Seckington, @mseckington
-Built at the WOWHack hackday by rewiredstate (@rewiredstate) for Women of the world festival (http://wow.southbankcentre.co.uk/)
-Built using scss, haml, ruby(rails and nanoc). 
