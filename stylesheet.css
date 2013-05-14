@@ -94,7 +94,7 @@ h1.question_text {
   overflow: hidden;
   vertical-align: top;
   background-color: #808080;
-  background-image: url("/assets/passiveimage.svg");
+  background-image: url("assets/passiveimage.svg");
   margin: 10px;
   margin-bottom: 20px;
   height: 228px;
@@ -132,7 +132,7 @@ h1.question_text {
     .card.active:before, .card.complete:before {
       content: none; }
     .card.active + .card, .card.complete + .card {
-      background-image: url("/assets/activeimage.svg"); }
+      background-image: url("assets/activeimage.svg"); }
     .card.active .answers,
     .card.active img,
     .card.active .player,
